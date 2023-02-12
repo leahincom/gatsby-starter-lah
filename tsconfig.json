@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                                 
+    "lib": ["dom", "esnext"],                                       
+    "jsx": "react",                               
+    "module": "esnext",                               
+    "moduleResolution": "node",                      
+    "allowJs": true,                                  
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                                     
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "gatsby-theme-stitches/src/stitches.config.ts": ["./src/styles/stitches.config.ts"]
+    }                                
+  },
+  "include": ["./*.ts", "./*.tsx", "./src/**/*", "./plugins/**/*"]
+}

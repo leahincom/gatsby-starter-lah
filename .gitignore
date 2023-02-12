@@ -1,0 +1,10 @@
+.env
+
+.DS_Store
+node_modules/
+.cache/
+yarn-error.log
+
+**/__generated__/**
+public/
+posts/**/*.not.mdx
