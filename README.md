@@ -62,15 +62,18 @@ or whatever you like :)
 
 ### Gatsby config
 
+```
 /
 ├── gatsby-browser.ts // css, wrapPageElement, ...
 ├── wrapPageElement.tsx
 ├── gatsby-ssr.tsx // same as gatsby-browser.ts with more ssr settings for stitches
 ├── gatsby-config.ts // default config, plugins, ...
 └── gatsby-node.ts // create types and configure page props for mdx settings
+```
 
 ### Structure
 
+```
 src
 ├── assets
 ├── components // individual components needed for default page styling
@@ -86,3 +89,4 @@ src
 ├── types
 ├── utils
 └── constants.ts
+```
